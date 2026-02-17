@@ -1,0 +1,9 @@
+{
+  "name": "@web2/note",
+  "version": "1.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@web2/components": "*"
+  }
+}

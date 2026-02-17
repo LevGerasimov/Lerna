@@ -1052,6 +1052,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@web2/components@npm:*, @web2/components@workspace:packages/components":
+  version: 0.0.0-use.local
+  resolution: "@web2/components@workspace:packages/components"
+  languageName: unknown
+  linkType: soft
+
+"@web2/note@workspace:packages/note":
+  version: 0.0.0-use.local
+  resolution: "@web2/note@workspace:packages/note"
+  dependencies:
+    "@web2/components": "npm:*"
+  languageName: unknown
+  linkType: soft
+
 "@yarnpkg/lockfile@npm:^1.1.0":
   version: 1.1.0
   resolution: "@yarnpkg/lockfile@npm:1.1.0"
