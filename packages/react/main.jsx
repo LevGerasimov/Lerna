@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Button } from "../components/index.jsx";
+import { Button } from "@web2/components/index.jsx";
 
 const App = () => {
   return (

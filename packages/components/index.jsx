@@ -8,6 +8,6 @@ export const Button = ({ children }) => {
       color: "white",
       border: "none",
       borderRadius: "8px"
-    }}> {children} </button>
+    }} onClick={() => {console.log("test")}}> {children} </button>
   );
 };
