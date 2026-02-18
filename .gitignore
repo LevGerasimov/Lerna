@@ -5,6 +5,17 @@
 !.yarn/sdks
 !.yarn/versions
 
+#packages
+#package ui
+packages/ui/dist
+
+#package utils
+packages/utils/dist
+
+#package web
+packages/web/.next/*
+packages/web/next-env.d.ts
+
 # Whether you use PnP or not, the node_modules folder is often used to store
 # build artifacts that should be gitignored
 node_modules
