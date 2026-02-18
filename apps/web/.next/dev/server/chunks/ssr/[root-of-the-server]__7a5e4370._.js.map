@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///home/locknak/projects/web2-monorepo/packages/ui/src/Button.tsx"],"sourcesContent":["import React from \"react\";\n\ntype ButtonProps = {\n  children: React.ReactNode;\n};\n\nexport const Button = ({ children }: ButtonProps) => {\n  return (\n    <button style={{ padding: \"8px 16px\", background: \"black\", color: \"white\" }}>\n      {children}\n    </button>\n  );\n};"],"names":[],"mappings":";;;;;;AAMO,MAAM,SAAS,CAAC,EAAE,QAAQ,EAAe;IAC9C,qBACE,8OAAC;QAAO,OAAO;YAAE,SAAS;YAAY,YAAY;YAAS,OAAO;QAAQ;kBACvE;;;;;;AAGP"}},
+    {"offset": {"line": 34, "column": 0}, "map": {"version":3,"sources":["file:///home/locknak/projects/web2-monorepo/packages/utils/src/index.ts"],"sourcesContent":["export const formatDate = (date: Date) =>\n  new Intl.DateTimeFormat(\"en-US\").format(date);"],"names":[],"mappings":";;;;AAAO,MAAM,aAAa,CAAC,OACzB,IAAI,KAAK,cAAc,CAAC,SAAS,MAAM,CAAC"}},
+    {"offset": {"line": 43, "column": 0}, "map": {"version":3,"sources":["file:///home/locknak/projects/web2-monorepo/apps/web/app/page.tsx"],"sourcesContent":["import { Button } from \"@web2/ui/src/Button\";\nimport { formatDate } from \"@web2/utils/src/index\";\n\nexport default function Home() {\n  return (\n    <html>\n        <body>\n            <div>\n                <h1>{formatDate(new Date())}</h1>\n                <Button>Hello from UI package</Button>\n            </div>\n        </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;AACA;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACG,cAAA,8OAAC;sBACG,cAAA,8OAAC;;kCACG,8OAAC;kCAAI,IAAA,+IAAU,EAAC,IAAI;;;;;;kCACpB,8OAAC,0IAAM;kCAAC;;;;;;;;;;;;;;;;;;;;;;AAKxB"}}]
+}

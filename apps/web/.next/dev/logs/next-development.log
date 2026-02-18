@@ -1,0 +1,1295 @@
+[00:00:00.795] Server  LOG     It looks like you're trying to use TypeScript but do not have the required package(s) installed.
+Installing dependencies
+
+If you are not trying to use TypeScript, please remove the tsconfig.json file from your package root (and any TypeScript files in your app and pages directories).
+
+[00:00:00.803] Server  LOG     
+[00:00:00.803] Server  LOG     Installing devDependencies (yarn):
+[00:00:00.804] Server  LOG     - @types/react
+[00:00:00.804] Server  LOG     - @types/node
+[00:00:00.804] Server  LOG     
+[00:00:03.885] Server  LOG     
+[00:00:03.886] Server  WARN    ⚠ Minimum recommended TypeScript version is v5.1.0, older versions can potentially be incompatible with Next.js. Detected: 3.9.10
+[00:00:04.040] Server  LOG     ✓ Ready in 3.7s
+[00:00:33.000] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui'
+> 1 | import { Button } from "@web2/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:35.503] Browser ERROR   uncaughtError: Error: ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui'
+> 1 | import { Button } from "@web2/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui'
+> 1 | import { Button } from "@web2/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui'
+> 1 | import { Button } from "@web2/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui'
+> 1 | import { Button } from "@web2/ui";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:00:35.879] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:08.553] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:08.554] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:08.555] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:08.558] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:08.991] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:08.991] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:12.353] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/B'
+> 1 | import { Button } from "@web2/ui/B";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:12.354] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/B'
+> 1 | import { Button } from "@web2/ui/B";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:12.355] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/B";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:12.356] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/B";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:12.787] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/B'
+> 1 | import { Button } from "@web2/ui/B";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:12.787] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/B";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:13.395] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:13.395] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:13.396] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:13.397] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:13.740] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:13.740] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:15.566] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:15.567] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:15.568] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:15.569] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:16.592] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:16.592] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:16.592] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:16.592] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:19.645] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:19.646] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:19.646] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:19.648] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:20.397] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:20.397] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:21.824] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.825] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.826] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:21.827] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:23.249] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:23.249] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:23.249] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:23.249] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.013] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:31.273] Browser ERROR   uncaughtError: Error: ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:14:31.487] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.487] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.487] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:14:31.487] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:37.877] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:37.879] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:37.879] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:37.880] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:38.407] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/'
+> 1 | import { Button } from "@web2/ui/";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:38.407] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:40.471] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:40.472] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:40.474] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:40.474] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:41.247] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:41.247] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:54.935] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/index.tsx'
+> 1 | import { Button } from "@web2/ui/index.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:54.936] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/index.tsx'
+> 1 | import { Button } from "@web2/ui/index.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:54.937] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/index.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:54.938] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/index.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:15:55.504] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/index.tsx'
+> 1 | import { Button } from "@web2/ui/index.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:15:55.504] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/index.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:16:09.609] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:09.610] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:09.610] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:09.612] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:09.775] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button'
+> 1 | import { Button } from "@web2/ui/Button";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:16:09.775] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:16:11.910] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:11.910] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:11.911] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:11.912] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:16:12.633] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/Button.tsx'
+> 1 | import { Button } from "@web2/ui/Button.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:16:12.633] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:54.110] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/srButton.tsx'
+> 1 | import { Button } from "@web2/ui/srButton.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:54.110] Server  ERROR   ⨯ ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/srButton.tsx'
+> 1 | import { Button } from "@web2/ui/srButton.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:54.111] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/srButton.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:54.112] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/srButton.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:54.418] Browser ERROR   ./apps/web/app/page.tsx:1:1
+Module not found: Can't resolve '@web2/ui/srButton.tsx'
+> 1 | import { Button } from "@web2/ui/srButton.tsx";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { formatDate } from "@web2/utils/index.ts";
+  3 |
+  4 | export default function Home() {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:54.418] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/srButton.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:17:55.549] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/src/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:55.550] Server  ERROR   ⨯ ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/src/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:17:56.330] Browser ERROR   ./apps/web/app/page.tsx:2:1
+Module not found: Can't resolve '@web2/utils/index.ts'
+  1 | import { Button } from "@web2/ui/src/Button.tsx";
+> 2 | import { formatDate } from "@web2/utils/index.ts";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 |
+  4 | export default function Home() {
+  5 |   return (
+
+https://nextjs.org/docs/messages/module-not-found
+[00:18:10.035] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:15.596] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:29.054] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:12.366] Browser ERROR   ./apps/web/app/page.tsx:8:7
+Parsing ecmascript source code failed
+   6 |     <html
+   7 |     <div>
+>  8 |       <h1>{formatDate(new Date())}</h1>
+     |       ^
+   9 |       <Button>Hello from UI package</Button>
+  10 |     </div>
+  11 |   );
+
+Expression expected
+[00:19:13.309] Browser ERROR   ./apps/web/app/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 |     </div>
+  11 |   );
+> 12 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:19:17.131] Browser ERROR   ./apps/web/app/page.tsx:12:1
+Parsing ecmascript source code failed
+  10 |     </div>
+  11 |   );
+> 12 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:19:18.084] Browser ERROR   ./apps/web/app/page.tsx:13:1
+Parsing ecmascript source code failed
+  11 |     </div>
+  12 |   );
+> 13 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:19:20.934] Browser ERROR   ./apps/web/app/page.tsx:8:5
+Parsing ecmascript source code failed
+   6 |     <html>
+   7 |         <
+>  8 |     <div>
+     |     ^
+   9 |       <h1>{formatDate(new Date())}</h1>
+  10 |       <Button>Hello from UI package</Button>
+  11 |     </div>
+
+Expression expected
+[00:19:21.887] Browser ERROR   ./apps/web/app/page.tsx:9:7
+Parsing ecmascript source code failed
+   7 |         <body
+   8 |     <div>
+>  9 |       <h1>{formatDate(new Date())}</h1>
+     |       ^
+  10 |       <Button>Hello from UI package</Button>
+  11 |     </div>
+  12 |   );
+
+Expression expected
+[00:19:23.795] Browser ERROR   ./apps/web/app/page.tsx:13:1
+Parsing ecmascript source code failed
+  11 |     </div>
+  12 |   );
+> 13 | }
+     | ^
+
+Unexpected token. Did you mean `{'}'}` or `&rbrace;`?
+[00:19:30.429] Browser ERROR   ./apps/web/app/page.tsx:18:3
+Parsing ecmascript source code failed
+  16 |       <Button>Hello from UI package</Button>
+  17 |     </div>
+> 18 |   );
+     |   ^
+  19 | }
+
+Expression expected
+[00:19:36.104] Browser ERROR   ./apps/web/app/page.tsx:15:3
+Parsing ecmascript source code failed
+  13 | }
+  14 |     
+> 15 |   );
+     |   ^
+  16 | }
+
+Expression expected
+[00:19:38.011] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:39.914] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:42.763] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:44.674] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:45.623] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:48.490] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:49.450] Browser ERROR   ./apps/web/app/page.tsx:17:3
+Parsing ecmascript source code failed
+  15 | }
+  16 |     
+> 17 |   );
+     |   ^
+  18 | }
+
+Expression expected
+[00:19:51.264] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:56.357] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:48.670] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:55.347] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
