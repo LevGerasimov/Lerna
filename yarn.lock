@@ -5795,9 +5795,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"web@workspace:apps/web":
+"web@workspace:packages/web":
   version: 0.0.0-use.local
-  resolution: "web@workspace:apps/web"
+  resolution: "web@workspace:packages/web"
   dependencies:
     "@types/node": "npm:25.2.3"
     "@types/react": "npm:19.2.14"
