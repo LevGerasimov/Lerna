@@ -3,9 +3,16 @@
   "packageManager": "yarn@4.10.3",
   "private": true,
   "workspaces": [
+    "apps/*",
     "packages/*"
   ],
+  "scripts": {
+    "dev": "lerna run dev --parallel",
+    "build": "lerna run build",
+    "clean": "lerna run clean"
+  },
   "devDependencies": {
-    "lerna": "^9.0.4"
+    "lerna": "^9.0.4",
+    "typescript": "^5.9.3"
   }
 }
